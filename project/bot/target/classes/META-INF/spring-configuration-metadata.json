@@ -11,11 +11,13 @@
       "name": "app.test",
       "type": "java.lang.String",
       "sourceType": "ru.tinkoff.edu.configuration.ApplicationConfig"
+
     },
     {
       "name": "app.token",
       "type": "java.lang.String",
       "sourceType": "ru.tinkoff.edu.configuration.ApplicationConfig"
+
     }
   ],
   "hints": []

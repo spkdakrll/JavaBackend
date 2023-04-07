@@ -21,7 +21,9 @@
     <module>bot</module>
     <module>link-parser</module>
     <module>scrapper</module>
+
       <module>common</module>
+
   </modules>
 
   <dependencyManagement>
