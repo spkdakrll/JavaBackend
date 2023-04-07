@@ -6,8 +6,8 @@ import ru.tinkoff.edu.record.GitHubRecord;
 
 public class GitHubLinkParserTest {
     private final GitHubLinkParser gitHubLinkParser = new GitHubLinkParser(null);
-    private final String username = "MarinaBiryukova";
-    private final String repo = "tinkoff-java";
+    private final String username = "spkdakrll";
+    private final String repo = "JavaBackend";
 
     @Test
     public void validLinkParse() {
