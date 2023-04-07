@@ -1,0 +1,2 @@
+ru.tinkoff.edu.BotApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+ru.tinkoff.edu.configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
