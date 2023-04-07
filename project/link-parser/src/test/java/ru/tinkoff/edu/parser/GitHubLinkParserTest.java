@@ -11,7 +11,7 @@ public class GitHubLinkParserTest {
 
     @Test
     public void validLinkParse() {
-        String link = "https://github.com/" + username + "/" + repo + "/";
+        String link = "https://github.com/" + username +  "/" + repo + "/";
 
         Record record = gitHubLinkParser.parseLink(link);
 
