@@ -30,6 +30,4 @@ public class ScrapperApplication
     public ApplicationConfig applicationConfig() {
         return new ApplicationConfig();
     }
-
 }
-
