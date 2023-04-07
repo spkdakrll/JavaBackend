@@ -5,6 +5,7 @@
       "type": "ru.tinkoff.edu.configuration.ApplicationConfig",
       "sourceType": "ru.tinkoff.edu.ScrapperApplication",
       "sourceMethod": "applicationConfig()"
+      "sourceType": "ru.tinkoff.edu.configuration.ApplicationConfig"
     }
   ],
   "properties": [

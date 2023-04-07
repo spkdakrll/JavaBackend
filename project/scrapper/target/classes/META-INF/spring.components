@@ -4,3 +4,5 @@ ru.tinkoff.edu.controller.LinksController=org.springframework.stereotype.Compone
 ru.tinkoff.edu.controller.TgChatController=org.springframework.stereotype.Component
 ru.tinkoff.edu.handler.ControllerExceptionHandler=org.springframework.stereotype.Component
 ru.tinkoff.edu.scheduler.LinkUpdaterScheduler=org.springframework.stereotype.Component
+ru.tinkoff.edu.configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
+
