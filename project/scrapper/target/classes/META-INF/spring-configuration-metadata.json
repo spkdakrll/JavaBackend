@@ -1,0 +1,72 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "ru.tinkoff.edu.java.scrapper.configuration.ApplicationConfig",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.ApplicationConfig"
+    },
+    {
+      "name": "client.github",
+      "type": "ru.tinkoff.edu.java.scrapper.configuration.GitHubConfig",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.GitHubConfig"
+    },
+    {
+      "name": "client.stackoverflow",
+      "type": "ru.tinkoff.edu.java.scrapper.configuration.StackOverFlowConfig",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.StackOverFlowConfig"
+    },
+    {
+      "name": "db.postgresql",
+      "type": "ru.tinkoff.edu.java.scrapper.configuration.PostgresqlConfig",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.PostgresqlConfig"
+    },
+    {
+      "name": "tg.bot",
+      "type": "ru.tinkoff.edu.java.scrapper.configuration.TgBotConfig",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.TgBotConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.scheduler",
+      "type": "ru.tinkoff.edu.java.scrapper.configuration.scheduller.Scheduler",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.ApplicationConfig"
+    },
+    {
+      "name": "app.test",
+      "type": "java.lang.String",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.ApplicationConfig"
+    },
+    {
+      "name": "client.github.base-url",
+      "type": "java.lang.String",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.GitHubConfig"
+    },
+    {
+      "name": "client.stackoverflow.base-url",
+      "type": "java.lang.String",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.StackOverFlowConfig"
+    },
+    {
+      "name": "db.postgresql.password",
+      "type": "java.lang.String",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.PostgresqlConfig"
+    },
+    {
+      "name": "db.postgresql.url",
+      "type": "java.lang.String",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.PostgresqlConfig"
+    },
+    {
+      "name": "db.postgresql.username",
+      "type": "java.lang.String",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.PostgresqlConfig"
+    },
+    {
+      "name": "tg.bot.base-url",
+      "type": "java.lang.String",
+      "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.TgBotConfig"
+    }
+  ],
+  "hints": []
+}

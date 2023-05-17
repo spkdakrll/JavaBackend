@@ -1,0 +1,41 @@
+package ru.tinkoff.edu.java.scrapper.controllers.handler;
+
+import org.springframework.http.*;
+import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.context.request.WebRequest;
+import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+import ru.tinkoff.edu.java.scrapper.configuration.dto.ApiErrorResponse;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.BadEntityException;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.DuplicateUniqueFieldException;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.EmptyResultException;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.ForeignKeyNotExistsException;
+
+@RestControllerAdvice
+public class ControllerExceptionHandler extends ResponseEntityExceptionHandler {
+    private static final String DESCRIPTION_400 = HttpStatus.BAD_REQUEST.getReasonPhrase();
+    private static final String STATUS_CODE_400 = String.valueOf(HttpStatus.BAD_REQUEST.value());
+    @Override
+    protected ResponseEntity<Object> handleHttpMessageNotReadable(HttpMessageNotReadableException ex, HttpHeaders headers, HttpStatusCode status, WebRequest request) {
+        return ResponseEntity.badRequest().body(new ApiErrorResponse(
+                DESCRIPTION_400,
+                STATUS_CODE_400,
+                ex.getClass().getSimpleName(),
+                ex.getMessage(),
+                ex.getStackTrace()
+        ));
+    }
+
+    @ExceptionHandler({BadEntityException.class, DuplicateUniqueFieldException.class, MethodArgumentTypeMismatchException.class, EmptyResultException.class, ForeignKeyNotExistsException.class})
+    protected ResponseEntity<ApiErrorResponse> handlerInvalidRequestParameters(Exception exception) {
+        return ResponseEntity.badRequest().body(new ApiErrorResponse(
+                DESCRIPTION_400,
+                STATUS_CODE_400,
+                exception.getClass().getSimpleName(),
+                exception.getMessage(),
+                exception.getStackTrace()
+        ));
+    }
+}

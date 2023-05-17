@@ -1,5 +1,6 @@
 package ru.tinkoff.edu.java.parsers;
 
+import ru.tinkoff.edu.java.parsers.BaseParser;
 import ru.tinkoff.edu.java.responses.BaseParseResponse;
 import ru.tinkoff.edu.java.responses.StackOverflowParseResponse;
 

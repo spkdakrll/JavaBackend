@@ -19,6 +19,11 @@ import javax.sql.DataSource;
 public class DBConfiguration {
     private final PostgresqlConfig postgresqlConfig;
 
+    @Bean("jdbcTemplate")
+    public JdbcTemplate jdbcTemplate() {
+        return new JdbcTemplate(getDataSource());
+    }
+
     @Bean("dataSource")
     public DataSource getDataSource() {
         HikariConfig hikariConfig = new HikariConfig();
@@ -28,10 +33,4 @@ public class DBConfiguration {
 
         return new HikariDataSource(hikariConfig);
     }
-
-    @Bean("jdbcTemplate")
-    public JdbcTemplate jdbcTemplate() {
-        return new JdbcTemplate(getDataSource());
-    }
-
 }

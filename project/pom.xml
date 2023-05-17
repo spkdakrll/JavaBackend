@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.tinkoff.project</groupId>
-    <artifactId>Tinkoff_project</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>JavaBackend</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Tinkoff_project</name>
+    <name>LarionovTinkoff</name>
     <url>http://maven.apache.org</url>
     <modules>
         <module>bot</module>

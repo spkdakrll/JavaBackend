@@ -2,9 +2,9 @@ package ru.tinkoff.edu.java.scrapper.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import ru.tinkoff.edu.java.scrapper.exceptions.repository.BadEntityException;
-import ru.tinkoff.edu.java.scrapper.exceptions.repository.DuplicateUniqueFieldException;
-import ru.tinkoff.edu.java.scrapper.persistence.service.ChatService;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.BadEntityException;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.DuplicateUniqueFieldException;
+import ru.tinkoff.edu.java.scrapper.service.ChatService;
 
 @RestController
 @RequestMapping("/tg-chat/{id}")

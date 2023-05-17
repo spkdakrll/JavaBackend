@@ -3,16 +3,16 @@ package ru.tinkoff.edu.java.scrapper.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import ru.tinkoff.edu.java.scrapper.dto.AddLinkRequest;
-import ru.tinkoff.edu.java.scrapper.dto.RemoveLinkRequest;
-import ru.tinkoff.edu.java.scrapper.dto.LinkResponse;
-import ru.tinkoff.edu.java.scrapper.dto.ListLinksResponse;
-import ru.tinkoff.edu.java.scrapper.exceptions.repository.BadEntityException;
-import ru.tinkoff.edu.java.scrapper.exceptions.repository.DuplicateUniqueFieldException;
-import ru.tinkoff.edu.java.scrapper.exceptions.repository.EmptyResultException;
-import ru.tinkoff.edu.java.scrapper.exceptions.repository.ForeignKeyNotExistsException;
-import ru.tinkoff.edu.java.scrapper.persistence.entity.LinkData;
-import ru.tinkoff.edu.java.scrapper.persistence.service.LinkService;
+import ru.tinkoff.edu.java.scrapper.configuration.dto.AddLinkRequest;
+import ru.tinkoff.edu.java.scrapper.configuration.dto.RemoveLinkRequest;
+import ru.tinkoff.edu.java.scrapper.configuration.dto.LinkResponse;
+import ru.tinkoff.edu.java.scrapper.configuration.dto.ListLinksResponse;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.BadEntityException;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.DuplicateUniqueFieldException;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.EmptyResultException;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.ForeignKeyNotExistsException;
+import ru.tinkoff.edu.java.scrapper.domain.entities.LinkData;
+import ru.tinkoff.edu.java.scrapper.service.LinkService;
 
 import java.util.Collection;
 import java.util.List;

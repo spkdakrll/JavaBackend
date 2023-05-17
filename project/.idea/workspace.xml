@@ -5,8 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adedf2f3-eb34-43b7-9d76-93355332415e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/BotApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/BotApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/clients/ScrapperClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/api/ScrapperClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/application/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/ClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/client/ClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/InputHandlerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/inph/InputHandlerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/ScrapperConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/scrapper/ScrapperConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/TgBotConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/inph/TgBotConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/GeneralExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/ControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/UpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/controllers/LinksUpdateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/dto/api/ApiErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/dto/resonse/ApiErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/dto/api/LinkUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/dto/request/LinkUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/dto/scrapper/AddLinkRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/dto/request/AddLinkRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/dto/scrapper/ApiErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/dto/scrapper/ApiErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/dto/scrapper/LinkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/dto/resonse/LinkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/dto/scrapper/ListLinksResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/dto/resonse/ListLinksResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/dto/scrapper/RemoveLinkRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/configuration/dto/request/RemoveLinkRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/interfaces/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/HelpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/InputHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/InvalidCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/InvalidCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/ListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/ListCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/ReplyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/interfaces/ReplyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/StartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/StartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/TrackCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/TrackCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/UntrackCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/UntrackCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/enums/InitBaseCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/enums/InitBaseCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/commands/enums/InitReplyCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/enums/InitReplyCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/utils/LinkValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/LinkValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/utils/ManagerCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/impl/ManagerCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/wrapper/SendSimpleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/core/SenderMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/wrapper/TgBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/commands/interfaces/TgBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/logic/wrapper/TgUpdaterLinkBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/java/ru/tinkoff/edu/java/bot/tgbot/core/TgUpdaterLinkBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/abstracts/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/HelpCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/impl/BotCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/InputHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/ListCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/StartCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/TrackCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/src/test/java/ru/tinkoff/edu/java/logic/commands/UntrackCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-parser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/link-parser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-parser/src/main/java/ru/tinkoff/edu/java/GeneralParseLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-parser/src/main/java/ru/tinkoff/edu/java/GeneralParseLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-parser/src/main/java/ru/tinkoff/edu/java/parsers/BaseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-parser/src/main/java/ru/tinkoff/edu/java/parsers/BaseParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-parser/src/main/java/ru/tinkoff/edu/java/parsers/ParseChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-parser/src/main/java/ru/tinkoff/edu/java/chain/ParseChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-parser/src/main/java/ru/tinkoff/edu/java/parsers/StackOverflowParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-parser/src/main/java/ru/tinkoff/edu/java/parsers/StackOverflowParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-parser/src/test/java/ru/tinkoff/edu/java/parsers/GitHubParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/link-parser/src/test/java/ru/tinkoff/edu/java/parsers/ParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link-parser/src/test/java/ru/tinkoff/edu/java/parsers/StackOverFlowTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/scripts/sql/2023-04-06-CRS-1_create_chats_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/sql/schemas/1-schema-app.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/scripts/sql/2023-04-06-CRS-2_create_domains_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/sql/schemas/2-schema-app.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/scripts/sql/2023-04-06-CRS-3_create_links_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/sql/schemas/3-schema-app.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/scripts/sql/2023-04-06-CRS-4_create_chat_link_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/sql/schemas/4-schema-app.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/scripts/sql/2023-04-15-CRS-5_alter_table_links_update_date.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/sql/schemas/5-schema-app.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper-jooq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper-jooq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/ClientConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/ClientConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/DBConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/DBConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/db/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/base/TestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/GeneralExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/handler/ControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/LinkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/LinkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/TgChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/TgChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/dto/AddLinkRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/dto/AddLinkRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/dto/ApiErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/dto/ApiErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/dto/LinkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/dto/LinkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/dto/ListLinksResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/dto/ListLinksResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/dto/RemoveLinkRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/dto/RemoveLinkRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/repository/BadEntityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/handler/exceptions/BadEntityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/repository/DuplicateUniqueFieldException.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/handler/exceptions/DuplicateUniqueFieldException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/repository/EmptyResultException.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/handler/exceptions/EmptyResultException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/exceptions/repository/ForeignKeyNotExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/controllers/handler/exceptions/ForeignKeyNotExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/entity/ChatData.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/entities/ChatData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/entity/ChatLinkData.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/entities/ChatLinkData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/entity/ConvertorFromMapToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/entities/ConvertorFromMapToJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/entity/DomainData.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/entities/DomainData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/entity/LinkData.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/entities/LinkData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/repository/impl/ChatLinkRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/repository/impl/ChatLinkRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/repository/impl/ChatRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/repository/impl/ChatRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/repository/impl/DomainRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/repository/impl/DomainRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/repository/impl/LinkRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/repository/impl/LinkRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/repository/repository/ChatLinkRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/repository/interfaces/ChatLinkRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/repository/repository/ChatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/repository/interfaces/ChatRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/repository/repository/DomainRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/repository/interfaces/DomainRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/repository/repository/LinkRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/domain/repository/interfaces/LinkRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/service/ChatLinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/service/ChatLinkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/service/GenerateUpdatesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/service/GenerateUpdatesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/service/LinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/service/LinkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/service/jdbc/JdbcChatLinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/service/jdbc/JdbcChatLinkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/service/jdbc/JdbcChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/service/jdbc/JdbcChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/persistence/service/jdbc/JdbcLinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/service/jdbc/JdbcLinkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/scheduller/LinkUpdaterScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/scheduller/LinkUpdaterScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/scheduller/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/java/ru/tinkoff/edu/java/scrapper/configuration/scheduller/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/GeneralParseLinkTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/IntegrationEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/abstracts/IntegrationEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/RunMigrationsIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/RunMigrationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/migration/RunMigrationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/jdbc/JdbcChatIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/jdbc/JdbcChatIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/jdbc/JdbcChatLinkIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/jdbc/JdbcDomainIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/jdbc/JdbcLinkIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapper/src/test/java/ru/tinkoff/edu/java/database/jdbc/JdbcUtils.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,38 +139,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2/hhrr/JavaBackend/project" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.GitHubParserTest">
-    <configuration name="GitHubLinkParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="link-parser" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.tinkoff.edu.java.parsers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ScrapperApplication">
+    <configuration name="ScrapperApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.edu.java.scrapper.ScrapperApplication" />
+      <module name="scrapper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parser.*" />
+          <option name="PATTERN" value="ru.tinkoff.edu.java.scrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="parser" />
-      <option name="MAIN_CLASS_NAME" value="parser.GitHubLinkParserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GitHubParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="link-parser" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.tinkoff.edu.java.parsers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.tinkoff.edu.java.parsers" />
-      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.edu.java.parsers.GitHubParserTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,6 +173,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="parser" />
       <option name="MAIN_CLASS_NAME" value="parser.LinkParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="link-parser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.tinkoff.edu.java.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.tinkoff.edu.java.parsers" />
+      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.edu.java.parsers.ParserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +239,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GitHubParserTest" />
+        <item itemvalue="Application.ScrapperApplication" />
         <item itemvalue="JUnit.UserMessageProcessorTest.process_UpdateWithUnknownCommandText_SendMessageContainsUnknownCommandMessage" />
         <item itemvalue="JUnit.StackOverflowLinkParserTest" />
         <item itemvalue="JUnit.LinkParserTest" />
-        <item itemvalue="JUnit.GitHubLinkParserTest" />
       </list>
     </recent_temporary>
   </component>

@@ -24,13 +24,13 @@ public class ClientConfiguration {
         return new StackOverFlowClient(stackOverFlowConfig);
     }
 
-    @Bean("telegramBotClient")
-    public TgBotClient getTgBotClient() {
-        return new TgBotClient(tgBotConfig);
-    }
-
     @Bean("schedulerIntervalMs")
     public long schedulerIntervalMs(ApplicationConfig config) {
         return config.scheduler().interval().toMillis();
+    }
+
+    @Bean("telegramBotClient")
+    public TgBotClient getTgBotClient() {
+        return new TgBotClient(tgBotConfig);
     }
 }

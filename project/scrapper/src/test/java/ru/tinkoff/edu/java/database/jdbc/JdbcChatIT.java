@@ -11,14 +11,15 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.test.context.ContextConfiguration;
-import ru.tinkoff.edu.java.database.IntegrationEnvironment;
+import ru.tinkoff.edu.java.database.abstracts.IntegrationEnvironment;
+import ru.tinkoff.edu.java.database.abstracts.JdbcUtils;
 import ru.tinkoff.edu.java.scrapper.configuration.DBConfiguration;
-import ru.tinkoff.edu.java.scrapper.configuration.db.TestConfiguration;
-import ru.tinkoff.edu.java.scrapper.exceptions.repository.BadEntityException;
-import ru.tinkoff.edu.java.scrapper.exceptions.repository.DuplicateUniqueFieldException;
-import ru.tinkoff.edu.java.scrapper.persistence.entity.ChatData;
+import ru.tinkoff.edu.java.scrapper.configuration.base.TestConfiguration;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.BadEntityException;
+import ru.tinkoff.edu.java.scrapper.controllers.handler.exceptions.DuplicateUniqueFieldException;
+import ru.tinkoff.edu.java.scrapper.domain.entities.ChatData;
 import org.junit.jupiter.api.Test;
-import ru.tinkoff.edu.java.scrapper.persistence.repository.impl.ChatRepositoryImpl;
+import ru.tinkoff.edu.java.scrapper.domain.repository.impl.ChatRepositoryImpl;
 
 import java.time.LocalDate;
 

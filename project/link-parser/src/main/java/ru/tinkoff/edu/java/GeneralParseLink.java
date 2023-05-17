@@ -1,6 +1,6 @@
 package ru.tinkoff.edu.java;
 
-import ru.tinkoff.edu.java.parsers.ParseChain;
+import ru.tinkoff.edu.java.chain.ParseChain;
 import ru.tinkoff.edu.java.parsers.Parser;
 import ru.tinkoff.edu.java.responses.BaseParseResponse;
 
