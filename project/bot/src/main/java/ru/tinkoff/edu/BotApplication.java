@@ -3,11 +3,11 @@ package ru.tinkoff.edu;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import ru.tinkoff.edu.command.*;
-import ru.tinkoff.edu.client.ScrapperClient;
+import ru.tinkoff.edu.configuration.client.ScrapperClient;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import ru.tinkoff.edu.configuration.ApplicationConfig;
-import ru.tinkoff.edu.model.*;
+import ru.tinkoff.edu.core.command.impl.*;
+import ru.tinkoff.edu.core.factory.Bot;
 
 @SpringBootApplication
 @EnableConfigurationProperties(ApplicationConfig.class)

@@ -3,7 +3,7 @@ package ru.tinkoff.edu.controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import ru.tinkoff.edu.request.LinkUpdate;
+import ru.tinkoff.edu.controller.handler.request.LinkUpdate;
 
 @RestController()
 public class LinkUpdateController {

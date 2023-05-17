@@ -1,8 +1,8 @@
 package ru.tinkoff.edu.client;
 
 import org.springframework.web.reactive.function.client.WebClient;
-import ru.tinkoff.edu.response.QuestionResponse;
-import ru.tinkoff.edu.response.QuestionsResponse;
+import ru.tinkoff.edu.dto.response.QuestionResponse;
+import ru.tinkoff.edu.dto.response.QuestionsResponse;
 
 import java.time.Duration;
 
