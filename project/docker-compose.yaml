@@ -1,16 +1,16 @@
 services:
   PostgreSQL:
-    image: postgres:15
     container_name: postgres
+    image: postgres:14
     restart: always
-    ports:
-      - 5432:5432
     environment:
       POSTGRES_DB: scrapper
-      POSTGRES_USER: tinkoff
-      POSTGRES_PASSWORD: he_is_the_only_one
+      POSTGRES_USER: pguser
+      POSTGRES_PASSWORD: pgpwd
     volumes:
       - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
     networks:
       - backend
 
@@ -23,8 +23,8 @@ services:
       - --changelog-file=master.xml
       - --driver=org.postgresql.Driver
       - --url=jdbc:postgresql://postgresql:5432/scrapper
-      - --username=tinkoff
-      - --password=he_is_the_only_one
+      - --username=pguser
+      - --password=pgpwd
       - update
     volumes:
       - ./migrations:/liquibase/changelog
